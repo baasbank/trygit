@@ -2,7 +2,7 @@ function minMax (arr) {
     if (Array.isArray(arr)) {
         var max = Math.max(...arr);
         var min = Math.min(...arr);
-        return (max, min);
+        return [max, min];
 
 }
     else {
@@ -10,5 +10,5 @@ function minMax (arr) {
     }
 }
 var check = minMax ([1, 5, 8, 98, 40000000, 5000000, -2]);
-//console.log(minMax(5));
+console.log(minMax(5));
 console.log(check);
