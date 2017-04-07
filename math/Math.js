@@ -8,5 +8,5 @@ const MathLib = {
     }
 }
 
-const values = [4,6,3,7];
+const values = [4,3,5,7,8];
 console.log(MathLib.add(values));
