@@ -1,11 +1,11 @@
 const StringClass = {
     concat: (values) => {
-        let result = "";
+        let cat = "";
         values.forEach((value) => {
-            result += " " + value;
+            cat += " " + value;
 
         });
-        return result;
+        return cat;
     }
 }
 
